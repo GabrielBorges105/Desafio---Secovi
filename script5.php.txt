@@ -1,0 +1,28 @@
+<?php
+$server = "localhost";
+$user = "root";
+$password = "";
+$conn = pg_connect($server, $user, $password) or die ("Erro ao tentar conectar");
+echo "Conectado!\n\n\n\n";
+
+
+$ids = file("file.txt");
+
+$query = "SELECT * FROM carros.carros WHERE id IN ($ids)";
+$result = pg_query($conn, $query);
+
+if(!$result) die("Erro ao executar query!");
+
+while($row = pg_fetch_assoc($result)){
+	echo "=========================\n\n";
+
+	echo = "ID: ".$row["id"]."\n";
+	echo = "MODELO: ".$row["modelo"]."\n";
+	echo = "COR: ".$row["cor"]."\n";
+
+	echo "=========================\n\n";
+}
+
+echo "FIM";
+
+?>
