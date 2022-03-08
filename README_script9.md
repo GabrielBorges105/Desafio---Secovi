@@ -1,9 +1,9 @@
-# PROJETO DESAFIO SICOVI
+# PROJETO DESAFIO SECOVI
 
 <a id="sobre"></a>
 ## Sobre
 
-Projeto desenvolvido durante o desafio SICOVI.
+Projeto desenvolvido durante o desafio SECOVI.
 
 -------------------------------------------------
 
