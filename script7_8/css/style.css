@@ -1,0 +1,30 @@
+.areaModal{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modalCadastro{
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modalCadastro .closeButton{
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
